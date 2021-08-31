@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		102373AE25C0F85800921E1B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102373AD25C0F85800921E1B /* HomeViewController.swift */; };
+		102373B925C5D53D00921E1B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102373B725C5D53C00921E1B /* Extensions.swift */; };
+		102373BA25C5D53D00921E1B /* classes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102373B825C5D53D00921E1B /* classes.swift */; };
+		1090A05F25B61BCD0059801A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1090A05E25B61BCD0059801A /* AppDelegate.swift */; };
+		1090A06125B61BCD0059801A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1090A06025B61BCD0059801A /* SceneDelegate.swift */; };
+		1090A06325B61BCD0059801A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1090A06225B61BCD0059801A /* ViewController.swift */; };
+		1090A06625B61BCD0059801A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1090A06425B61BCD0059801A /* Main.storyboard */; };
+		1090A06825B61BCE0059801A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1090A06725B61BCE0059801A /* Assets.xcassets */; };
+		1090A06B25B61BCE0059801A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1090A06925B61BCE0059801A /* LaunchScreen.storyboard */; };
+		109CB42525BBE6210048C983 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109CB42425BBE6210048C983 /* Api.swift */; };
+		109CB43325BBEE700048C983 /* VerificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109CB43225BBEE700048C983 /* VerificationViewController.swift */; };
+		895C9737A9DA7CA94CBD32E0 /* libPods-Card Bank.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B7196E5428CCA49D7921F7 /* libPods-Card Bank.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		102373AD25C0F85800921E1B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		102373B725C5D53C00921E1B /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = SOURCE_ROOT; };
+		102373B825C5D53D00921E1B /* classes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = classes.swift; sourceTree = SOURCE_ROOT; };
+		1090A05B25B61BCD0059801A /* Card Bank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Card Bank.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1090A05E25B61BCD0059801A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1090A06025B61BCD0059801A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1090A06225B61BCD0059801A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1090A06525B61BCD0059801A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1090A06725B61BCE0059801A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1090A06A25B61BCE0059801A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1090A06C25B61BCE0059801A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		109CB42425BBE6210048C983 /* Api.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = SOURCE_ROOT; };
+		109CB43225BBEE700048C983 /* VerificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationViewController.swift; sourceTree = "<group>"; };
+		2528B7CB1EBE98A07B887DF3 /* Pods-Card Bank.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Card Bank.release.xcconfig"; path = "Target Support Files/Pods-Card Bank/Pods-Card Bank.release.xcconfig"; sourceTree = "<group>"; };
+		A1B7196E5428CCA49D7921F7 /* libPods-Card Bank.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Card Bank.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA9F8C02980919D06C5CD42C /* Pods-Card Bank.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Card Bank.debug.xcconfig"; path = "Target Support Files/Pods-Card Bank/Pods-Card Bank.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1090A05825B61BCD0059801A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				895C9737A9DA7CA94CBD32E0 /* libPods-Card Bank.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1090A05225B61BCD0059801A = {
+			isa = PBXGroup;
+			children = (
+				1090A05D25B61BCD0059801A /* Card Bank */,
+				1090A05C25B61BCD0059801A /* Products */,
+				8E1A370F1DD33DF48746265D /* Pods */,
+				78AF2C81ECD23C555ADE0D75 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1090A05C25B61BCD0059801A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1090A05B25B61BCD0059801A /* Card Bank.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1090A05D25B61BCD0059801A /* Card Bank */ = {
+			isa = PBXGroup;
+			children = (
+				109CB42425BBE6210048C983 /* Api.swift */,
+				102373B825C5D53D00921E1B /* classes.swift */,
+				102373B725C5D53C00921E1B /* Extensions.swift */,
+				1090A06225B61BCD0059801A /* ViewController.swift */,
+				109CB43225BBEE700048C983 /* VerificationViewController.swift */,
+				102373AD25C0F85800921E1B /* HomeViewController.swift */,
+				1090A05E25B61BCD0059801A /* AppDelegate.swift */,
+				1090A06025B61BCD0059801A /* SceneDelegate.swift */,
+				1090A06425B61BCD0059801A /* Main.storyboard */,
+				1090A06925B61BCE0059801A /* LaunchScreen.storyboard */,
+				1090A06725B61BCE0059801A /* Assets.xcassets */,
+				1090A06C25B61BCE0059801A /* Info.plist */,
+			);
+			path = "Card Bank";
+			sourceTree = "<group>";
+		};
+		78AF2C81ECD23C555ADE0D75 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1B7196E5428CCA49D7921F7 /* libPods-Card Bank.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E1A370F1DD33DF48746265D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BA9F8C02980919D06C5CD42C /* Pods-Card Bank.debug.xcconfig */,
+				2528B7CB1EBE98A07B887DF3 /* Pods-Card Bank.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1090A05A25B61BCD0059801A /* Card Bank */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1090A06F25B61BCE0059801A /* Build configuration list for PBXNativeTarget "Card Bank" */;
+			buildPhases = (
+				3D885507E5411B0258825416 /* [CP] Check Pods Manifest.lock */,
+				1090A05725B61BCD0059801A /* Sources */,
+				1090A05825B61BCD0059801A /* Frameworks */,
+				1090A05925B61BCD0059801A /* Resources */,
+				BF6879D04AF149C16183725C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Card Bank";
+			productName = "Card Bank";
+			productReference = 1090A05B25B61BCD0059801A /* Card Bank.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1090A05325B61BCD0059801A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					1090A05A25B61BCD0059801A = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 1090A05625B61BCD0059801A /* Build configuration list for PBXProject "Card Bank" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1090A05225B61BCD0059801A;
+			productRefGroup = 1090A05C25B61BCD0059801A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1090A05A25B61BCD0059801A /* Card Bank */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1090A05925B61BCD0059801A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1090A06B25B61BCE0059801A /* LaunchScreen.storyboard in Resources */,
+				1090A06825B61BCE0059801A /* Assets.xcassets in Resources */,
+				1090A06625B61BCD0059801A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3D885507E5411B0258825416 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Card Bank-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF6879D04AF149C16183725C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Card Bank/Pods-Card Bank-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Card Bank/Pods-Card Bank-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Card Bank/Pods-Card Bank-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1090A05725B61BCD0059801A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1090A06325B61BCD0059801A /* ViewController.swift in Sources */,
+				1090A05F25B61BCD0059801A /* AppDelegate.swift in Sources */,
+				109CB43325BBEE700048C983 /* VerificationViewController.swift in Sources */,
+				109CB42525BBE6210048C983 /* Api.swift in Sources */,
+				1090A06125B61BCD0059801A /* SceneDelegate.swift in Sources */,
+				102373AE25C0F85800921E1B /* HomeViewController.swift in Sources */,
+				102373BA25C5D53D00921E1B /* classes.swift in Sources */,
+				102373B925C5D53D00921E1B /* Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1090A06425B61BCD0059801A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1090A06525B61BCD0059801A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1090A06925B61BCE0059801A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1090A06A25B61BCE0059801A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1090A06D25B61BCE0059801A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1090A06E25B61BCE0059801A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1090A07025B61BCE0059801A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA9F8C02980919D06C5CD42C /* Pods-Card Bank.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BURBMFBAR2;
+				INFOPLIST_FILE = "Card Bank/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alyssamarie0107.Card-Bank";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1090A07125B61BCE0059801A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2528B7CB1EBE98A07B887DF3 /* Pods-Card Bank.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BURBMFBAR2;
+				INFOPLIST_FILE = "Card Bank/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alyssamarie0107.Card-Bank";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1090A05625B61BCD0059801A /* Build configuration list for PBXProject "Card Bank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1090A06D25B61BCE0059801A /* Debug */,
+				1090A06E25B61BCE0059801A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1090A06F25B61BCE0059801A /* Build configuration list for PBXNativeTarget "Card Bank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1090A07025B61BCE0059801A /* Debug */,
+				1090A07125B61BCE0059801A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1090A05325B61BCD0059801A /* Project object */;
+}

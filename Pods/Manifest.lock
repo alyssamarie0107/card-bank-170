@@ -1,0 +1,21 @@
+PODS:
+  - PhoneNumberKit (3.3.1):
+    - PhoneNumberKit/PhoneNumberKitCore (= 3.3.1)
+    - PhoneNumberKit/UIKit (= 3.3.1)
+  - PhoneNumberKit/PhoneNumberKitCore (3.3.1)
+  - PhoneNumberKit/UIKit (3.3.1):
+    - PhoneNumberKit/PhoneNumberKitCore
+
+DEPENDENCIES:
+  - PhoneNumberKit
+
+SPEC REPOS:
+  trunk:
+    - PhoneNumberKit
+
+SPEC CHECKSUMS:
+  PhoneNumberKit: ff153d5e299f6da566cb73c6aa71e354933b2932
+
+PODFILE CHECKSUM: bb2dbf63b372082a0edfa7d6e12bb1d5dc505143
+
+COCOAPODS: 1.10.1
